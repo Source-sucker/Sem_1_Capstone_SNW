@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Housing - Skeleton</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">Dream Housing</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+            <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#properties">Properties</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <!-- <div class="video-container">
+                <video autoplay muted loop playsinline>
+                    <source src="hero.mp4" type="video/mp4">
+                </video>
+            </div> -->
+                <div class="hero-content">
+                    <h1>Find Your Dream Property</h1>
+                    <p>Luxury, comfort, and quality real estate services.</p>
+                    <a href="#properties" class="btn">Explore Properties</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container">
+        <h2>About Us</h2>
+        <p> Dream Housing India is a luxury real estate agent. We help High Networth Individuals, Top Industrialists, NRIs, MNCs, and Investors by offering Personalised Real Estate bouquets services in Prime Locations of SOUTH DELHI through Premium Luxury Listings of high-end Properties, like Villas, Land, Apartments, builder floors, flats, bungalows, duplexes, triplexes or Offices.
+
+Founded In 1990, We’ve spent decades excelling in the competitive landscape of South Delhi real estate, establishing a class reputation as expert advisors serving boutique-style solutions to a niche clientele. Our business is built on communication, dedication, and transparency.
+
+The processes we have mastered have helped us to rise to the level of the best real estate agents In South Delhi. With our sharp knowledge of the local market, We’ve helped over 500 families & many multinational companies in South Delhi find their desired properties, and We are confident we can help you find yours too, or in your family or for your organization..</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card card">
+                <img class="card-media" src="https://picsum.photos/seed/residential/600/400" alt="Residential homes">
+                <div class="card-body">
+                    <h3>Residential Sales</h3>
+                    <p>We help you find your dream home with ease.</p>
+                </div>
+            </div>
+            <div class="service-card card">
+                <img class="card-media" src="https://picsum.photos/seed/commercial/600/400" alt="Commercial buildings">
+                <div class="card-body">
+                    <h3>Commercial Sales</h3>
+                    <p>High-value commercial properties for investors.</p>
+                </div>
+            </div>
+            <div class="service-card card">
+                <img class="card-media" src="https://picsum.photos/seed/management/600/400" alt="Property management">
+                <div class="card-body">
+                    <h3>Property Management</h3>
+                    <p>Managing your property hassle-free and profitably.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties container">
+        <h2>Featured Properties</h2>
+        <div class="property-grid">
+            <div class="property-card card">
+                <img class="card-media" src="https://picsum.photos/seed/villa/800/500" alt="Luxury Villa exterior">
+                <div class="card-body">
+                    <h3>Luxury Villa</h3>
+                    <p>4 BHK • 3500 sq.ft • ₹2.5 Cr</p>
+                    <a href="#" class="btn-small">View Details</a>
+                </div>
+            </div>
+            <div class="property-card card">
+                <img class="card-media" src="https://picsum.photos/seed/apartment/800/500" alt="Modern Apartment interior">
+                <div class="card-body">
+                    <h3>Modern Apartment</h3>
+                    <p>3 BHK • 2000 sq.ft • ₹1.2 Cr</p>
+                    <a href="#" class="btn-small">View Details</a>
+                </div>
+            </div>
+            <div class="property-card card">
+                <img class="card-media" src="https://picsum.photos/seed/commercialspace/800/500" alt="Commercial Space building">
+                <div class="card-body">
+                    <h3>Commercial Space</h3>
+                    <p>2000 sq.ft • Prime Location • ₹3 Cr</p>
+                    <a href="#" class="btn-small">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Excellent services and guidance!"</p>
+                <h4>- Client A</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Professional and trustworthy team."</p>
+                <h4>- Client B</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Amazing experience and friendly staff."</p>
+                <h4>- Client C</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +91 98183-12077</p>
+                <p><strong>Email:</strong> info@royalerealtorsindia.com</p>
+                <p><strong>Address:</strong> Your Office Address Here</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Royale Realtors. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
