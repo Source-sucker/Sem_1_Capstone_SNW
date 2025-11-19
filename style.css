@@ -100,7 +100,7 @@ img {
 .hero-overlay {
   background: rgba(0,0,0,0.5);
   width: 100%;
-  height: 90vh;g
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,6 +257,13 @@ section {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+.map{
+  margin-left: 10%;
+  width: 100vw;
+}
+iframe{
+  width: 80vw;
 }
 
 /* Responsive */
